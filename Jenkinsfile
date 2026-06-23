@@ -6,7 +6,7 @@ pipeline {
     }
 
     environment {
-        PATH = "$PATH:/usr/local/bin"
+        PATH = "$PATH:/usr/local/bin/aws"
         AWS_DEFAULT_REGION = 'us-east-1'
         BUCKET = "${params.S3_BUCKET}"
     }

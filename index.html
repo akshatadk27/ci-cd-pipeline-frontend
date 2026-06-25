@@ -212,7 +212,7 @@
       fd.append("file", submission_file.files[0]);
       fd.append("comments", comments.value);
 
-      const res = await fetch(`${API_BASE}/submit_assignments`, {
+      const res = await fetch(`${API_BASE}/submit_assignment`, {
         method: "POST",
         body: fd
       });
